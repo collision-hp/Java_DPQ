@@ -3,10 +3,9 @@ import java.util.Scanner;
 public class Rem_Dupl {
     public static String rem_dupl(String str){
         String newstr="";
-        newstr+=str.charAt(0);
         for(int i=0;i<str.length();i++){
             boolean flag=true;
-            for(int j=0;j<newstr.length();j++){
+            for(int j=1;j<newstr.length();j++){
                 if(str.charAt(i)==str.charAt(j)){
                     flag=false;
                     break;
