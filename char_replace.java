@@ -17,3 +17,6 @@ public class char_replace {
         System.out.println(replace_char("Trhinosauros",'o', 'z'));
     }
 }
+
+//or directly with method
+//String replaced=str.replace('o','z');
