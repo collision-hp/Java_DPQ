@@ -16,7 +16,8 @@ public class dupl_char {
             }
         }
         Set <Character> charInString=charcount.keySet();
-        for(Character ch:charInString){
+        //all the unique alphabets are added to the set
+        for(char ch:charInString){
             if(charcount.get(ch)>1){
                 System.out.println(ch+" :"+charcount.get(ch));
             }
