@@ -6,11 +6,12 @@ public class all_Permutation {
         if(str.isEmpty()){
             System.out.println(prefix);
         }
-        else{
-            for(int i=0;i<str.length();i++){
-                String rem=str.substring(0, i)+str.substring(i+1);
-                Permutations(rem, prefix + str.charAt(i));
-            }
+        for(int i=0;i<str.length();i++){
+            String rem=str.substring(0, i) +str.substring(i+1);
+            Permutations(rem, prefix+str.charAt(i));
         }
+    }
+    public static void main(String[] args) {
+        Permutations("abc","");
     }
 }
