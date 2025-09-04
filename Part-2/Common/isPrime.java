@@ -1,3 +1,4 @@
+package Common;
 // Java program to find Prime number 
 public class isPrime {
     public static void Prime(int n){

@@ -1,3 +1,4 @@
+package String;
 public class EvenIndexedChars {
     public static String even(String str){
         String strnew=" ";

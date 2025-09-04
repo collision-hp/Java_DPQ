@@ -1,3 +1,4 @@
+package String;
 public class RemoveSpace {
     public static String spacesremoval(String str){
         String strnew="";

@@ -1,3 +1,4 @@
+package String;
 // Java program to find duplicate characters in astring
 // Duplicate Characters in : Learn Java Programming 
 // a : 4 ,g : 2 ,m : 2 ,n : 2 ,r : 3

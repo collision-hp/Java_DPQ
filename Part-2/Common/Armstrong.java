@@ -1,3 +1,4 @@
+package Common;
 
 public class Armstrong {
     public static int armstrong(int n){

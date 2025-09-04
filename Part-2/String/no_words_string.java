@@ -1,3 +1,4 @@
+package String;
 // Java program to count the number of words in a string
 // Enter the String: Welcome to Java World
 // Number of words in a string: 4

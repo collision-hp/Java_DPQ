@@ -1,3 +1,4 @@
+package String;
 // Test Automation Java Automation
 // Count of Characters in a given string : {Java=1, Automation=2, Test=1} 
 

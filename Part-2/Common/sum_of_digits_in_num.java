@@ -1,3 +1,4 @@
+package Common;
 public class sum_of_digits_in_num {
     public static int sumOfNumber(int n){
         int sum=0;

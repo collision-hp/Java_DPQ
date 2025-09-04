@@ -1,3 +1,4 @@
+package Common;
 public class Palindrome {
     public static void palindrome(int n){
         int newnum=0;

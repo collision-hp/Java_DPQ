@@ -1,3 +1,4 @@
+package String;
 public class PalindromeString {
     public static String palindrome(String str){
         int i=str.length()-1;

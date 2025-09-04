@@ -1,3 +1,4 @@
+package Common;
 public class reverse_num {
     public static int reverse(int n){
         int m=0;

@@ -1,3 +1,4 @@
+package String;
 public class twiceLetters {
     public static String twice(String str){
         String strnew=" ";

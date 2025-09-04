@@ -1,3 +1,4 @@
+package String;
 public class vowel_Consonant {
     public static void count(String str){
         str=str.toLowerCase().replace(" " ,"");

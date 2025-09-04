@@ -1,3 +1,4 @@
+package Common;
 public class swap_without_thirdvar {
     public static void main(String[] args) {
         int a=9,b=7;
