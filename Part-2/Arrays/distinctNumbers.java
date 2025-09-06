@@ -3,9 +3,6 @@
 // Output – [3,4]
 
 package Arrays;
-
-import java.util.*;
-
 public class distinctNumbers {
     public static void distinct(int[] arr){
         for(int i=0;i<arr.length-1;i++){
