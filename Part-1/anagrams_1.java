@@ -2,7 +2,7 @@
 // Strings are anagram or not? 
 //  Ex: Str1= reaction Str2: creation 
 //   Output: Two Strings are anagrams
-public class anagrams {
+public class anagrams_1 {
     public static String anagram(String str1,String str2){
         if(str1.length()==str2.length()){
             int len=str1.length();            
