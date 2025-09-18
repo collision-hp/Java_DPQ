@@ -5,7 +5,7 @@
 
 public class reverse_string_words {
     public static String reverse_wordsofString(String str) {
-        String revstr = " ";
+        String revstr = "";
         String revword = " ";
         for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) != ' ') {
