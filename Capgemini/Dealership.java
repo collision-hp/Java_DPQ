@@ -9,13 +9,11 @@
 // 1 2
 
 // Output
-
 // 20
 // 16
 // 8
 
-//Explanation
-
+//Explanation:
 // There are total 3 dealerships
 // dealerships1 contains 4 cars and 2 bikes
 // dealerships2 contains 4 cars and 0 bikes
