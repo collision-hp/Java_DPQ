@@ -1,3 +1,5 @@
+// String str="aabbbbeeeeffggg" -> a2b4e4f2g3
+
 import java.util.*;
 
 public class TotalNumber_Alpha {
