@@ -1,12 +1,13 @@
-// 15. String Rotation:
-// Problem: Determine if one string is a rotation of another.
+// Similar String Check
+
+// Problem: Check if given strings are similar or not. If yes then print the size of string in binary, if not then print zero. Both strings are of same size, similar means just the letters are rearranged.
 
 // Input:
-// String A: "ABCD"
-// String B: "CDAB"
+// String 1: "abcd"
+// String 2: "dbca"
 
-// Output: True
-// Explanation: B is a rotation of A.
+// Output:
+// 100 (4 in binary)
 
 public class String_Rotation {
     public static boolean isRotation(String a,String b){

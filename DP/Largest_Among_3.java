@@ -8,6 +8,8 @@ public class Largest_Among_3 {
                 max=z;
             }
         }
+        int maximum=Math.max(x,Math.max(y, z));
+        System.out.println(maximum);
         System.out.println(max);
     }
 }
