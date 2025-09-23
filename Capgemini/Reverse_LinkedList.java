@@ -10,5 +10,7 @@
 // Explanation: The list is reversed.
 
 public class Reverse_LinkedList {
+    public static 
+
     
 }

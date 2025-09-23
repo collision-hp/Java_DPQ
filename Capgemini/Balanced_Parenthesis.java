@@ -18,22 +18,28 @@ public class Balanced_Parenthesis {
         }
         return true;
     }
-    public static void parenthesisHashMap(String str){
-        Map<Character,Character> map=new HashMap<>();
-        map.put('{','}');
-        map.put('[',']');
-        map.put('(',')');
+    public static boolean parenthesisHashMap(String str){
+        String str1="{[(";
+        String str2=")]}";
+        boolean  flag=false;
         for(int i=0;i<str.length()/2;i++){
-            if(map.containsKey(str.charAt(i))){
-                if(map.get(str.charAt(i))!=str.charAt(str.length()-1-i)){
-                    System.out.println("Not balanced");
+            flag=false;
+            for(int j=0;j<str1.length();j++){
+                if(str.charAt(i)==str1.charAt(j)){
+                    if(str.charAt(str.length()-1)==str2.charAt(str2.length()-1)){
+                        flag=true;
+                    }
                 }
+            }   
+            if(flag==false){
+                break;
             }
         }
+        return flag;
+
     }
     public static void main(String[] args) {
-        System.out.println(parenthesis("{[()]}"));
-        parenthesisHashMap("{[()]}");
+        System.out.println(parenthesisHashMap("{[)]}"));
     }
     
 }

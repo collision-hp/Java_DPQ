@@ -27,6 +27,12 @@ public class String_Rotation {
         return false;
     }
     public static void main(String[] args) {
-        System.out.println(isRotation("abcd", "cabd"));
+        String a="abcd";
+        String b="cdab";
+        System.out.println(isRotation(a,b));
+        if(isRotation(a, b)==true){
+            String binary=Integer.toBinaryString(a.length());
+            System.out.println(binary);
+        }
     }
 }
