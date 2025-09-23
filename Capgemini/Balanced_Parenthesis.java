@@ -10,7 +10,6 @@
 
 // Explanation: The string has balanced parentheses.
 
-import java.util.*;
 public class Balanced_Parenthesis {
     public static boolean parenthesis(String str){
         if(str.length()%2!=0){
