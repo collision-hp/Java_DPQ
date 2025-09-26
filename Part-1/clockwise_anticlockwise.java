@@ -1,5 +1,4 @@
-// 33. program of clockwise and anticlockwise 
-       
+// 33. program of clockwise and anticlockwise       
 // Input                clockwise  Output:                
 // 1    2    3             7    4    1                     
 // 4    5    6             8    5    2                     

@@ -9,8 +9,8 @@ public class anticlockwise {
     public static int[][] anticlockwiseArray(int arr[][], int r, int c) {
         int newarr[][] = new int[r][c];
         int n=c;
-        for (int i = 0; i < r; i++) {
-            for (int j = 0; j < c; j++) {
+        for(int i=0;i<r;i++){
+            for(int j=0;j<r;j++){
                 newarr[n-1-j][i]=arr[i][j];
             }
         }
