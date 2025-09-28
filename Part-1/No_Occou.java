@@ -2,10 +2,10 @@
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Scanner;
 
 public class No_Occou {
     public static void no_occur(String str){
+        str=str.replace(" ","");
         char diststr=' ';
         Map<Character,Integer> mp=new HashMap<>();
 
@@ -26,9 +26,7 @@ public class No_Occou {
         System.out.println(mp);
     }
     public static void main(String[] args) {
-        Scanner ni=new Scanner(System.in);
-        System.out.println("Enter the string");
-        String str=ni.nextLine();
+        String str="King Kohli";
         no_occur(str);
     }
 }

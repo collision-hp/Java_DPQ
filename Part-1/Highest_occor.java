@@ -12,7 +12,6 @@ public class Highest_occor {
                     count++;
                 }
             }
-            
             if(count>max){
                 max=count;
 
