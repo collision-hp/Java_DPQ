@@ -1,8 +1,9 @@
+package Common;
 // Write a program to Whether Given String is 
 // palindrome String or not? 
 //  Ex: madam 
 //  Output: Given String is Palindrome
-public class palindrome {
+public class Palindrome_String {
     public static void Palindrome(String str){
         String rev="";
         for(int i=str.length()-1;i>=0;i--){

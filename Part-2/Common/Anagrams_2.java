@@ -1,6 +1,7 @@
+package Common;
 //the ascii value total approach
 
-public class anagrams_2 {
+public class Anagrams_2 {
     public static boolean anagram(String str1,String str2){
         int arr[]=new int[256];
         if(str1.length()==str2.length()){
@@ -18,6 +19,6 @@ public class anagrams_2 {
         return false;
     }
     public static void main(String[] args) {
-        System.out.println(anagram("xyz","yzx"));
+        System.out.println(anagram("xyzabc","yzabcx"));
     }
 }

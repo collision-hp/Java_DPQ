@@ -3,7 +3,7 @@ package Common;
 
 import java.util.Arrays;
 
-public class Anagrams {
+public class Anagrams_3 {
     public static void anagrams(String str1,String str2){
         str1=str1.replace(" ","").toLowerCase();
         str2=str2.replace(" ","").toLowerCase();

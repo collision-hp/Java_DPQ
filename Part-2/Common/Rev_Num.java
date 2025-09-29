@@ -1,5 +1,5 @@
 package Common;
-public class reverse_num {
+public class Rev_Num {
     public static int reverse(int n){
         int m=0;
         while(n>0){

@@ -1,3 +1,4 @@
+package Common;
 //Write a program to reverse the string
 import java.util.*;
 public class Rev_Str {

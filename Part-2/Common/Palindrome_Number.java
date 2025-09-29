@@ -1,5 +1,5 @@
 package Common;
-public class Palindrome {
+public class Palindrome_Number {
     public static void palindrome(int n){
         int newnum=0;
         int original=n;
