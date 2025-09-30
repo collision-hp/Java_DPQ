@@ -1,5 +1,6 @@
-//30. remove the 2nd duplicate elements/character from 
-// array/String(dont use predefine logic)
+// Remove the 2nd duplicate elements from String(dont use predefine logic)
+// AababAnhnhn
+// Aabnh
 public class remove_deplicates {
     public static String rem_dupl(String str){
         String newstr="";

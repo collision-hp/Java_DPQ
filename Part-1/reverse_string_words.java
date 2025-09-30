@@ -1,5 +1,4 @@
-// 25. Write a program to reverse Words of the Given 
-// String? 
+// 25. Write a program to reverse Words of the Given String? 
 //  Ex: "Today is Monday" 
 //  Output: yadoT si yadnoM
 

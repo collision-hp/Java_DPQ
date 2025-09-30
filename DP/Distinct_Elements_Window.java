@@ -13,6 +13,7 @@ public class Distinct_Elements_Window {
     public static void main(String[] args) {
         int arr[]={1,2,1,3,4,2,3};
         int k=4;
+        
         List<Integer> list=new ArrayList<>();
         for(int i=0;i<arr.length-k+1;i++){
             Set<Integer> set=new HashSet<>();
