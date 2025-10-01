@@ -1,3 +1,5 @@
+//Find the 2nd largest number
+
 public class second_num {
     public static int secondHighest(int [] arr,int n){
         int sechigh=0;

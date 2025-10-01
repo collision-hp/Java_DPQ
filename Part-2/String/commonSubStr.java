@@ -47,5 +47,6 @@ public class commonSubStr {
             names[i]=sc.nextLine();
         }
         System.out.println(SubstringPrefix(names));
+        sc.close();
     }
 }

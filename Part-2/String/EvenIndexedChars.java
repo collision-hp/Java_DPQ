@@ -1,7 +1,10 @@
+// Automation
+// Atmto
+
 package String;
 public class EvenIndexedChars {
     public static String even(String str){
-        String strnew=" ";
+        String strnew="";
         for(int i=0;i<str.length();i++){
             if(i%2==0){
                 strnew+=str.charAt(i);

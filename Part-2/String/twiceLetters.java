@@ -1,7 +1,7 @@
 package String;
 public class twiceLetters {
     public static String twice(String str){
-        String strnew=" ";
+        String strnew="";
         for(char i:str.toCharArray()){
             strnew+=i;
             strnew+=i;

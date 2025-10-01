@@ -10,7 +10,12 @@ public class RemoveSpace {
         }
         return strnew;
     }
+    public static String methodRemoval(String str){
+        str=str.replace(" ", "");
+        return str;
+    }
     public static void main(String[] args) {
         System.out.println(spacesremoval("Welcome to java world"));
+        System.out.println(methodRemoval("Welcome to java world"));
     }
 }

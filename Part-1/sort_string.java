@@ -10,19 +10,16 @@ public class sort_string {
     }
     public static String sortString(String str){
         String result="";
-        char arr[]= new char[str.length()];
-        for(int i=0;i<str.length();i++){
-            arr[i]=str.charAt(i);
-        }
-        for(int i=0;i<str.length()-1;i++){
-            for(int j=0;j<str.length()-i-1;j++){
+        char arr[]= str.toCharArray();
+        for(int i=0;i<arr.length-1;i++){
+            for(int j=0;j<arr.length-i-1;j++){
                 if(arr[j]>arr[j+1]){
                     swap(arr,j,j+1);
                 }
             }
         }
         for(char i:arr){
-            System.out.print(i);
+            result+=i;
         }
         return result;
     }
