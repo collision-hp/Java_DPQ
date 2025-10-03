@@ -31,5 +31,6 @@ public class Non_Rep_char {
         System.out.println("Enter the string");
         String str = ni.nextLine();
         System.out.println(nonrep(str));
+        ni.close();
     }
 }

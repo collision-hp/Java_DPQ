@@ -22,5 +22,6 @@ public class Rem_Dupl {
         System.out.println("Enter the string");
         String str=ni.nextLine();
         System.out.println(rem_dupl(str));
+        ni.close();
     }
 }

@@ -33,6 +33,6 @@ public class Non_Rep_char_end {
         System.out.println("Enter the string");
         String str = ni.nextLine();
         System.out.println(non_rep_char_end(str));
-
+        ni.close();
     }
 }
