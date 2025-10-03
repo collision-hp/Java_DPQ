@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Non_Rep_char_end {
     public static String non_rep_char_end(String str) {
-        String ch = "";
+        String ch="";
         Set<Character> set=new HashSet<>(); 
         for (int i = str.length() - 1; i >=0; i--) {
             boolean flag = true;
