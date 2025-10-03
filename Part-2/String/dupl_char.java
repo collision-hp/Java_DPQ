@@ -16,6 +16,7 @@ public class dupl_char {
                 charcount.put(i,1);
             }
         }
+        //to iterate over the map we converted it to character set.
         Set <Character> charInString=charcount.keySet();
         //all the unique alphabets are added to the set
         for(char ch:charInString){
