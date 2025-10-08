@@ -7,12 +7,12 @@ import java.util.HashMap;
 public class count_words {
     public static void Word_count(String str){
         HashMap<String,Integer> word_freq=new HashMap<>();
-        for(String i:str.split(" ")){
-            if(word_freq.containsKey(i)){
-                word_freq.put(i,word_freq.get(i)+1);
+        for(String s:str.split(" ")){
+            if(word_freq.containsKey(s)){
+                word_freq.put(s,word_freq.get(s)+1);
             }
             else{
-                word_freq.put(i,1);
+                word_freq.put(s,1);
             }
         }
         System.out.println(word_freq);
