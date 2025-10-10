@@ -1,7 +1,6 @@
 package String;
 
-// Java program to find the longest without 
-// repeating characters
+// Java program to find the longest without repeating characters
 import java.util.*;
 
 public class longest_without_repeatchar {
