@@ -1,5 +1,4 @@
 // Find the Most Frequent First-Last Character Pair in a String
-
 // Given a string containing multiple words, for each word extract the pair consisting of its first and last character. Among all these first-last character pairs, find the one that appears most frequently in the text.
 
 import java.util.*;
