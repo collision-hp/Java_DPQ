@@ -1,14 +1,11 @@
 // Operate the String
-
 // You are given a string. Your task is to determine how many letters in the string violate the condition.
-
 // Condition:
 // Every character in the string must appear at least twice.
 // So, if a character appears only once, it violates the condition.
 
 // Input Format:
 // A single string (lowercase letters).
-
 // Output Format
 // Print the number of letters that violate the condition (i.e., appear only once).
 
@@ -26,7 +23,6 @@
 // d → 2
 // e → 2
 // All characters appear at least twice, so none violate the condition.
-
 
 // Example 2
 
@@ -93,6 +89,7 @@ public class Char_Frequency_Violation {
     }
     public static void main(String[] args) {
         String str1="factorius";
+        
         String str2="ababcdeedca";
         System.out.println(Violation(str1));
         System.out.println(ViolationHashMapTechnique(str1));

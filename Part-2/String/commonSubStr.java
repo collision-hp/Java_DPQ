@@ -11,7 +11,7 @@
 
 // Input:
 // 5
-// Rosewood
+// rosewood
 // rose
 // rosy
 // rosemarry
@@ -21,9 +21,6 @@
 // ros
 
 package String;
-
-import java.util.Scanner;
-
 public class commonSubStr {
     public static String SubstringPrefix(String[] names){
         String substr=names[0];
@@ -40,13 +37,7 @@ public class commonSubStr {
         return substr;
     }
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int n=5;
-        String names[]=new String[n];
-        for(int i=0;i<n;i++){
-            names[i]=sc.nextLine();
-        }
+        String names[]={"rosewood","rose","rosy","rosemerry","rosh"};
         System.out.println(SubstringPrefix(names));
-        sc.close();
     }
 }
