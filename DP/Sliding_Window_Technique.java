@@ -28,7 +28,7 @@ public class Sliding_Window_Technique {
         }
         System.out.println();
     }
-
+    
     public static void Method_2(int arr[],int k){
         int max=arr[0];
         for(int i=0;i<arr.length-k+1;i++){
