@@ -1,16 +1,11 @@
 // 29. Find the First Non-Repeated Character in a String:
 // Problem: Given a string, find the first character that does not repeat.
-
 // Input:
 // String: "swiss"
-
-// Output:
-// w
-
+// Output: w
 // Explanation: 'w' is the first character that does not repeat in the string.
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class First_NonRepeated {
     public static void Non_Repeated(String str){
@@ -29,16 +24,21 @@ public class First_NonRepeated {
 
         }
     }
-    public static void Non_rep(String str){
-        List<Character> list=new ArrayList<>();
+    
+    public static Character Non_rep(String str){
+        Map<Character,Integer> map=new LinkedHashMap<>();
         for(int i=0;i<str.length();i++){
-            list.add(str.charAt(i));
+            map.put(str.charAt(i),map.getOrDefault(str.charAt(i),0)+1);
         }
-        for(int i=0;i<str.length();i++){
-            
+        for(char i:map.keySet()){
+            if(map.get(i)==1){
+                return i;
+            }
         }
+        return ' ';
     } 
     public static void main(String[] args) {
         Non_Repeated("swiss");
+        System.out.println(Non_rep("swiss"));
     }
 }
