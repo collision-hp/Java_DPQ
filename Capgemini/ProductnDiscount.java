@@ -10,7 +10,6 @@
 
 // Sample Output 1:
 // shoe
-
 // Explanation: The discount on the mobile is 2000, the discount on the shoe is 500, the discount on the watch is 900 and the discount on the laptop is 1750. So the discount on the shoe is the minimum
 
 public class ProductnDiscount {
