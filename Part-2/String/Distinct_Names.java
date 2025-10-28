@@ -30,6 +30,6 @@ public class Distinct_Names {
             System.out.println(set.size());
             str="";
         }        
-
+        s.close();
     }
 }
