@@ -2,7 +2,6 @@
 // using arrays.sort concept
 
 import java.util.*;
-
 public class Sorted_All_SubString {
     public static String sort(String str) {
         String finalstr = "";
