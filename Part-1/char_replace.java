@@ -1,5 +1,5 @@
-// Write a program to replace given character to 
-// other given Character in the string?
+// Write a program to replace given character to other given Character in the string?
+
 public class char_replace {
     public static String replace_char(String str,char ch1,char ch2){
         String replaced="";

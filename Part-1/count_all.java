@@ -21,7 +21,7 @@ public class count_all {
             }
         }
         return ("Character:"+character+"\n"+"Special Character:"+spec_char+"\n"+"Digit:"+digit);
-
+        
     }
     public static void main(String[] args) {
         System.out.println(count_all_characters("Nacre@123%"));
