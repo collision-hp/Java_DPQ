@@ -3,29 +3,22 @@
 //           output:- 1, 10, 2, 9, 3, 8, 4, 7, 5, 6
 
 public class sort_array {
-    public static int [] sortArray(int arr[],int n){
-        int arr1[]=new int[n];
-        int x=0,y=n-1;
-
-        for(int i=0;i<n;i++){
-            if((i+1)%2==0){
-                arr1[i]=arr[y];
-                y--;
-            }
-            else{
-                arr1[i]=arr[x];
-                x++;
-            }
+    public static int [] sortArray(int arrorigin[],int n){
+        int i=0,j=n-1,x=0;
+        int arr[]=new int[n];
+        while(i<=n/2 && j>=n/2 && x<n){
+            arr[x++]=arrorigin[i++];
+            arr[x++]=arrorigin[j--];
         }
-        return arr1;
+        return arr;
     }
+
     public static void main(String[] args) {
         int n=10;
         int arr [] = {1,2,3,4,5,6,7,8,9,10};
         int newarr[]=sortArray(arr, n);
         for(int i:newarr){
-            System.out.println(i);
+            System.out.print(i+" ");
         }
-        
     }
 }

@@ -1,5 +1,4 @@
-// 7. write a program to print all duplicate character 
-// and their count form the given String? 
+// 7. write a program to print all duplicate character and their count form the given String? 
 //  Ex: Programmming  Output: g: 2 
 //                            r: 2
 //                            m: 3
